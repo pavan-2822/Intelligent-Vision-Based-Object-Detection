@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# TensorFlow logs and model data
+logs/
+checkpoint/
+*.pb
+*.h5
+*.ckpt
+*.tflite
+*.weights
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python cache and build
+build/
+dist/
+*.egg-info/
+
+# Notebook output cells (optional if exporting cleaned .ipynb)
+*.nbconvert.ipynb
